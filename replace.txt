@@ -1,0 +1,2 @@
+grep -rl "daftarfstvlkuponundian" . | xargs sed -i "s/daftarfstvlkuponundian/new-name/g"
+grep -rl "Daftarfstvlkuponundian" . | xargs sed -i "s/Daftarfstvlkuponundian/New Name/g"
